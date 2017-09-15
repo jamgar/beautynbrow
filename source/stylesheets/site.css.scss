@@ -11,6 +11,23 @@ section {
   padding-top: 50px;
 }
 
+section#home {
+  padding-top: 0;
+}
+
+
+/* CUSTOMIZE THE NAVIGATION BAR
+-------------------------------------------------- */
+
+.top-nav-home {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-nav>li:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
