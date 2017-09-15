@@ -1,5 +1,5 @@
 // debounce function that will wrap our event
-function debounce(fn, delay = 20) {
+function debounce(fn, delay = 15) {
   // maintain a timer
   let timer = null;
   // closure function that has access to timer
