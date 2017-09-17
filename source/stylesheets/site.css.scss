@@ -1,8 +1,10 @@
 body {
   // padding-top: 50px;
+  background-color: #eee;
 }
 
 footer {
+  border-top: 1px solid #DDD;
   padding: 50px 0;
   background-color: #eee;
 }
@@ -15,17 +17,39 @@ section#home {
   padding-top: 0;
 }
 
+.navbar-brand,
+.jumbotron-content h1 {
+  font-family: 'Tangerine', cursive;
+}
+
+.jumbotron {
+  // position: relative;
+  background: url('/images/carousel_3.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  .jumbotron-content{
+    padding-top: 80px;
+    h1, h3 {
+      color: #FFF;
+    }
+  }
+}
+
 
 /* CUSTOMIZE THE NAVIGATION BAR
 -------------------------------------------------- */
 
 .top-nav-home {
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.5);
+//  background-color: transparent;
   border: none;
 }
 
 .navbar-nav>li:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  // background-color: rgba(255, 255, 255, 0.3);
 }
 
 /* CUSTOMIZE THE CAROUSEL
